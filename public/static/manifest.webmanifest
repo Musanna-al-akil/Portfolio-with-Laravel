@@ -1,0 +1,38 @@
+{
+  "short_name": "unnoman",
+  "name": "Abdullah Un Noman | UI/UX Expert",
+  "description": "I’m an experienced Product Designer and Team Player. Last Five Years I’ve been working on dozens of website design, Mobile App and WebApp projects and many of them are successful nowadays.",
+  "icons": [
+    {
+      "src": "image/logo2x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "image/logo2x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/unnoman/public/?source=pwa",
+  "background_color": "#0C0F1C",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "#0C0F1C",
+  "shortcuts": [
+    {
+      "name": "How's weather today?",
+      "short_name": "Today",
+      "description": "View weather information for today",
+      "url": "/unnoman/public/story?source=pwa",
+      "icons": [{ "src": "image/logo2x.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How's weather tomorrow?",
+      "short_name": "Tomorrow",
+      "description": "View weather information for tomorrow",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "image/logo2x.png", "sizes": "192x192" }]
+    }
+  ]
+}
